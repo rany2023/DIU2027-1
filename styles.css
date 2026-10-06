@@ -102,3 +102,18 @@ button:hover {
 h1 {
     animation: aparecer 5.5s;
 }
+
+@media (max-width: 600px) {
+    .objeto-contenido {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .panel-formulario {
+        width: 80%;
+    }
+}
