@@ -88,3 +88,17 @@ button:hover {
 .panel-formulario {
     transition: 0.3s;
 }
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    animation: aparecer 5.5s;
+}
