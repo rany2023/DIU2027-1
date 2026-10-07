@@ -136,3 +136,26 @@ footer {
     text-align: center;
     border-top: 1px solid var(--color-recuperado);
 }
+
+.busqueda {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid var(--color-recuperado);
+    background-color: rgba(20, 20, 30, 0.8);
+}
+
+.busqueda h2 {
+    margin-top: 0;
+}
+
+.busqueda input {
+    padding: 10px;
+    border: 1px solid var(--color-recuperado);
+    background-color: black;
+    color: var(--color-texto);
+}
+
+.busqueda button {
+    padding: 10px 15px;
+    margin-left: 5px;
+}
